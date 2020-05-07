@@ -42,7 +42,8 @@ RUN apk --update add \
         make \
         unzip \
         wget \
-        libmemcached-dev
+        libmemcached-dev \
+        zip
 
 
 ###########################################################################

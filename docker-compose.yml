@@ -16,7 +16,7 @@ services:
       - ${WEB_ROOT_PATH}:/var/www
     depends_on:
       - php-fpm
-      - mysql
+#      - mysql
 
   php-fpm:
     container_name: lnmp-php-pfm
